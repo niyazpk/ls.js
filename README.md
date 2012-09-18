@@ -15,6 +15,14 @@ API
 
 `ls.remove(key)` - remove an item from localStorage. This methos also accepts an array of keys.
 
-`ls.keys(str)` - returns a list of keys matching the regex/string given as argument
+`ls.keys(str)` - returns a list of keys matching the regex/string given as argument. If nothing is provided as argument, ALL the keys are returned.
+
+
+
+Notes
+-----
+
+ - localStorage.key and localStorage.length are not supported in the API. In practice, I hope they won't be missed becuase of the way ls.keys() method works.
+
 
 
