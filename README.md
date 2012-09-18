@@ -22,7 +22,9 @@ API
 Notes
 -----
 
- - localStorage.key and localStorage.length are not supported in the API. In practice, I hope they won't be missed becuase of the way ls.keys() method works.
+ - `localStorage.key` and `localStorage.length` were not ported to the API. In practice, I hope they won't be missed because of the way ls.keys() method works.
+
+  - If you are using *ls.js* in your code, please make sure that you are using ONLY this library to manage your localStorage needs. Because of the way *ls.js* stores data, it may not be compatible with other libraries which may store data in a different manner.
 
 
 
