@@ -13,7 +13,7 @@ API
 
 `ls.flush()` - clear ALL data stored in localStorage
 
-`ls.remove(key)` - remove an item from localStorage. This methos also accepts an array of keys.
+`ls.remove(key)` - remove an item from localStorage. This method also accepts an array of keys.
 
 `ls.keys(str)` - returns a list of keys matching the regex/string given as argument. If nothing is provided as argument, ALL the keys are returned.
 
